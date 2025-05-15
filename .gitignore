@@ -1,0 +1,27 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Flask cache and logs
+instance/
+*.log
+
+# Node modules (if ever used)
+node_modules/

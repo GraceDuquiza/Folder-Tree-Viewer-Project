@@ -1,0 +1,89 @@
+/* 🔥 Animated Gradient Background */
+body {
+    margin: 0;
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(-45deg, #f9f9f9, #e3f2fd, #d1c4e9, #fff3e0);
+    background-size: 400% 400%;
+    animation: gradientFlow 15s ease infinite;
+}
+
+@keyframes gradientFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+h2 {
+    color: #1f2937;
+    font-size: 28px;
+    margin-bottom: 1rem;
+}
+
+/* 💬 Input and Dropdown */
+input[type="text"],
+select {
+    width: 55%;
+    padding: 12px;
+    margin-top: 0.75rem;
+    margin-right: 1rem;
+    border: 2px solid #cbd5e0;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+/* 🟦 Stylish Buttons */
+button {
+    padding: 10px 22px;
+    background: linear-gradient(145deg, #4f46e5, #6366f1);
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 14px rgba(99, 102, 241, 0.3);
+}
+
+button:hover {
+    background: #4338ca;
+    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5);
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+/* 🧊 Mermaid Diagram Panel */
+.diagram-wrapper {
+    margin-top: 2rem;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    overflow-x: auto;
+}
+
+/* 🖥️ Mermaid Style */
+.mermaid {
+    font-size: 16px;
+    min-height: 400px;
+    text-align: left;
+}
+
+/* 🔍 Zoom Support */
+.zoom-container {
+    transform-origin: top left;
+    transition: transform 0.2s ease;
+}
