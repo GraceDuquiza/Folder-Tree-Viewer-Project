@@ -54,5 +54,5 @@ def get_tree():
     return jsonify({"tree": tree_lines})
 
 if __name__ == '__main__':
-    is_dev = os.environ.get('FLASK_ENV') == 'development'
-    app.run(debug=is_dev)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
