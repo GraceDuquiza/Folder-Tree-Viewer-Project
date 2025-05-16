@@ -1,4 +1,4 @@
-# 📁 Folder Tree to Mermaid Diagram
+# 📁 Tree Folder Viewer
 
 🎯 Purpose
 
@@ -63,8 +63,8 @@ TreeFolderProject/
 
 ```bash
 # 1. Clone this repo or copy the files
-git clone https://github.com/your-username/folder-tree-mermaid.git
-cd folder-tree-mermaid
+git clone https://github.com/username/Tree_Folder_Viewer.git
+cd 
 
 # 2. (Optional) Create a virtual environment
 python -m venv .venv
