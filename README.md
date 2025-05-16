@@ -12,8 +12,7 @@ Instead of reading through nested folders manually, this tool:
 
     👁️ Helps you quickly visualize your project's architecture
 
-✅ This is a read-only tool.
-It does not store, modify, or upload any files. It simply reads your local folder and generates a visual preview in the browser.
+⚠️ This tool is designed to run locally on your own machine.
 
 It’s perfect for:
 
